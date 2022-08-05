@@ -1,0 +1,12 @@
+:root {
+    /* colors */
+    --clr-primary: hsl(255, 50%, 50%);
+    --clr-dark: hsl(300, 0%, 15%);
+    --clr-light: hsl(257, 74%, 92%);
+    --clr-pure-white: hsl(255, 100%, 100%);
+    --clr-pure-black: hsl(0, 0%, 0%);
+
+    /* fonts */
+    --ff-primary: 'Montserrat', sans-serif;
+    --ff-accent: 'Paprika', cursive;
+}

@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
 
-/* Local Files */
-@import url(./css/root.css);
-@import url(./css/reset.css);
-
 html {
     font-size: 62.5%;
 }
@@ -13,4 +9,25 @@ html {
 body {
     line-height: 1.4;
     background-color: var(--clr-light);
+}
+
+div.app-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--clr-primary)
+}
+
+div.app-wrapper > aside {
+    width: 20vw;
+    height: inherit;
+    background-color: var(--clr-primary);
+}
+
+div.app-wrapper > main {
+    width: 80vw;
+    height: inherit;
+    background-color: var(--clr-pure-white);
 }
